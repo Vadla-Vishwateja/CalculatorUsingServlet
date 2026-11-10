@@ -60,6 +60,10 @@ public class Calculator extends GenericServlet {
 			result=num1/num2;
 			out.println("<h2>"+num1+" / "+num2+" = "+result+"</h2>");
 			break;
+		case "%":
+			result=num1%num2;
+			out.println("<h2>"+num1+" % "+num2+" = "+result+"</h2>");
+			break;
 		default:
 			out.println("<h2>Enter Valid Operator</h2>");
 		}
