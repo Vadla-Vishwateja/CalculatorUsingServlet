@@ -38,7 +38,6 @@ public class Calculator extends GenericServlet {
 		int num2=Integer.parseInt(number2);
 		
 		int result;
-		
 
 		PrintWriter out=response.getWriter();
 		response.setContentType("text/html;charset=UTF-8");
