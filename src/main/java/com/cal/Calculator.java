@@ -67,9 +67,6 @@ public class Calculator extends GenericServlet {
 		default:
 			out.println("<h2>Enter Valid Operator</h2>");
 		}
-		
-		
 
 	}
-
 }
